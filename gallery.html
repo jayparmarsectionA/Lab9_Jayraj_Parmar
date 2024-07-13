@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Imagination Station</h1>
+    </header>
+
+<div class="container-md">               
+    <div class="gallery-item" data-category="nature">
+        <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg">
+    </div>
+    <div class="gallery-item" data-category="city">
+        <img src="https://media.istockphoto.com/id/496975059/photo/toronto-skyline.jpg?s=612x612&w=0&k=20&c=f7gAHBKMcyfyydb4i1fLtRXzgQs35WdY8MIFeIet9LQ=">
+    </div>
+    <div class="gallery-item" data-category="nature">
+        <img src="https://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/b58237e3-c822-4517-9ec9-372bc739b8af/161.jpg">
+    </div>
+    <div class="gallery-item" data-category="city">
+        <img src="https://tracystravelsintime.com/wp-content/uploads/2020/06/Paris-France.jpg">
+    </div>
+    <div class="gallery-item" data-category="nature">
+        <img src="https://static.boredpanda.com/blog/wp-content/uploads/2016/01/the-majestic-beauty-of-trees-captured-in-infrared-photography__880.jpg">
+    </div>
+    <div class="gallery-item" data-category="city">
+        <img src="https://cdn.openart.ai/stable_diffusion/f5938a17e59c5913bca140d83f71336ba37ddaa5_2000x2000.webp">
+    </div>
+    <div class="gallery-item" data-category="nature">
+        <img src="https://static.photocdn.pt/images/articles/2022/01/12/most_beautiful_landscape_photography.webp">
+    </div>
+    <div class="gallery-item" data-category="city">
+        <img src="https://cdn.openart.ai/stable_diffusion/785a1b868f8b3f4fc1768948d7255d8acaa2648b_2000x2000.webp">
+    </div>
+    <div class="gallery-item" data-category="nature">
+        <img src="https://www.viewbug.com/media/mediafiles/2016/03/16/64637173_medium.jpg">
+    </div>
+</div>
+
+<div class="filters">
+    <button class="filter-button" data-category="all">All</button>
+    <button class="filter-button" data-category="nature">Nature</button>
+    <button class="filter-button" data-category="city">City</button>
+</div>
+
+<div id="lightbox">
+    <div class="lightbox-content">
+        <span class="close-button">&times;</span>
+        <img src="" alt="Large Image">
+    </div>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="gallery.js"></script>
+</body>
+</html>
